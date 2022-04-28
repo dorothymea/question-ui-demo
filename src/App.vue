@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <Button>你好</Button>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import 'ruri-ui/dist/lib/ruri.css'
+import {Button} from 'ruri-ui'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Button
   }
 }
 </script>
